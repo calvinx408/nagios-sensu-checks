@@ -31,6 +31,8 @@ storage.each do |name,p|
 #  puts "#{name} #{p}"
 end
 
+print "Number of Volumes with path down: #{error}"
+
 if error > 0
   exit(2)
 else
@@ -38,4 +40,3 @@ else
 end
 
 
-print "Number of Volumes with path down: #{error}"
